@@ -6,17 +6,237 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
     <title>Gadget-Commerce</title>
 </head>
 
 <body>
+    <!--Top Section start-->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#product">Product</a>
+                    <a class="nav-item nav-link" href="#about">About us</a>
+                    <a class="nav-item nav-link" href="#contact">Contact us</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row align-items-center ">
+                        <div class="col-md-5">
+                            <h2>Macbook350</h2>
+                            <p>This is the best gadget for passing time in sound</p>
+                            <button class="buy-now-button">Buy now -></button>
+
+                        </div>
+                        <div class="col-md-7">
+                            <img src="images/banner-products/product-1.png" class="d-block w-100">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="row align-items-center ">
+                            <div class="col-md-5">
+                                <h2>Bluetooth-Sound-box450</h2>
+                                <p>This is the best gadget for passing time in sound</p>
+                                <button class="buy-now-button">Buy now -></button>
+
+                            </div>
+                            <div class="col-md-7">
+                                <img src="images/banner-products/slider-1.png" class="d-block w-100">
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row align-items-center ">
+                        <div class="col-md-5">
+                            <h2>Bluetooth-Sound-box550</h2>
+                            <p>This is the best gadget for passing time in sound</p>
+                            <button class="buy-now-button">Buy now -></button>
+
+                        </div>
+                        <div class="col-md-7">
+                            <img src="images/banner-products/slider-3.png" class="d-block w-100">
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </div>
+    <!--Top Section start-->
 
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <div class="container-fluid">
+        <img class="img-fluid" src="images/back1.jpg" alt="">
+    </div>
+    <!--product section-->
+    <div class="container product">
+        <h2>Smartphone <small class="see">see all</small></h2>
+        <div class="card-deck">
+            <div class="card">
+                <img src="images/phone/phone-1.png" class="card-img-top image-fluid" alt="...">
+                <div class="card-body text-center">
+                    <h2 class="card-title">iphone11 pro</h2>
+                    <p class="card-text">iphone came with new technology.so go for it!</p>
+                </div>
+                <div class="card-footer text-center">
+                    <h3>$999</h3>
+                    <button class="buy-now-button">Buy now -></button>
+
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/phone/phone-2.png" class="card-img-top" alt="...">
+                <div class="card-body text-ceneter">
+                    <h2 class="card-title">Samsung galaxy</h2>
+                    <p class="card-text">Samsung came with new technology.so go for it!.</p>
+                </div>
+                <div class="card-footer text-center">
+                    <h4>$799</h4>
+                    <button class="buy-now-button">Buy now -></button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/phone/phone-3.png" class="card-img-top" alt="...">
+                <div class="card-body text center">
+                    <h2 class="card-title">Xiaomi 8A</h2>
+                    <p class="card-text">Xioami came with new technology.so go for it!</p>
+                </div>
+                <div class="card-footer text-center">
+                    <h4>$699</h4>
+                    <button class="buy-now-button">Buy now -></button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <h2>Laptop <small class="see">see all</small></h2>
+        <div class="card-deck">
+            <div class="card">
+                <img src="images/laptop/product-1.png" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                    <h2 class="card-title">Asus pro</h2>
+                    <p class="card-text">Asus came with new technology.so go for it!</p>
+                </div>
+                <div class="card-footer text-center">
+                    <h3>$999</h3>
+                    <button class="buy-now-button">Buy now -></button>
+
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/laptop/product-2.png" class="card-img-top" alt="...">
+                <div class="card-body text-ceneter">
+                    <h2 class="card-title">Razer Blade 15</h2>
+                    <p class="card-text">Razer came with new technology.so go for it!.</p>
+                </div>
+                <div class="card-footer text-center">
+                    <h4>$2799</h4>
+                    <button class="buy-now-button">Buy now -></button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/laptop/product-3.png" class="card-img-top" alt="...">
+                <div class="card-body text center">
+                    <h2 class="card-title">Xiaomi Mi Probook</h2>
+                    <p class="card-text">Xioami came with new technology.so go for it!</p>
+                </div>
+                <div class="card-footer text-center">
+                    <h4>$699</h4>
+                    <button class="buy-now-button">Buy now -></button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--product section-->
+
+    <!--catagories-->
+    <div class="container product  cata-title">
+        <h2 class="text-center my-5">Catagories</h2>
+        <div class="row align-items-center">
+            <div class="col-md-3">
+                <img class="image" src="images/Categories/bag.png" alt="">
+
+            </div>
+            <div class="col-md-3 ">
+                <div class="row ">
+                    <img class="image" src="images/Categories/perfume.png" alt="">
+
+                </div>
+                <div class="row">
+                    <img class="image" src="images/Categories/shoe.png" alt="">
+                </div>
+
+
+
+            </div>
+
+            <div class="col-md-6 ">
+                <img class="d-block w-100" src="images/Categories/pale-order.png" alt="">
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+    <!--catagories-->
+
+    <!--bonus-->
+    <div class="container d-flex justify-content-center align-items-center" id="subcribe">
+        <div>
+            <h3>Lets's stay in touch</h3>
+            <h6>Get update on sales, specials and more</h6>
+            <input class="form-control" type="text">
+            <button class="buy-now-button">Subcribe</button>
+        </div>
+    </div>
+    <footer>
+        <small>&copy2020.All Right Reserved by gadget Commerce.Stay Safe</small>
+    </footer>
+    <!--bonus-->
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js " integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js " integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 " crossorigin="anonymous "></script>
 </body>
 
 </html>
